@@ -1,3 +1,28 @@
 body {
   background-color: aliceblue;
 }
+table{
+  width: 1000px;
+  border-spacing: 5px; 
+}
+th{
+text-align: left;
+
+}
+
+
+table, th, td {
+
+  border:1px solid #000;
+  text-align: center;
+  border-collapse: collapse;
+  
+}
+
+th, td {
+
+ padding: 10px;
+  
+  
+
+}
