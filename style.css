@@ -24,7 +24,7 @@ th, td {
  padding: 10px;
 
 }
-
+/*www.w3schools.com/css/css3_animations.asp*/
 .dj-visuals {
   display: flex;
   flex-direction: column;
@@ -62,6 +62,6 @@ th, td {
 
 .waveform {
   width: 100%;
-  max-width: 1000px;
+  max-width: 2000px;
   height: 100px;
 }
