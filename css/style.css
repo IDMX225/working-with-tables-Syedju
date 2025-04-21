@@ -1,0 +1,204 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #cbcac7;
+    color: #1c2418;
+    text-align: center;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Times New Roman";
+    text-align-last: center;
+
+}
+
+h1 {
+
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+
+}
+
+header {
+    text-align: center;
+}
+
+#hero,
+footer {
+    color: #8E4129;
+    border: 10px solid #789a2e;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    box-shadow: 25px 25px 5px rgba(0, 0, 0, .2)inset;
+    background-color: #C1D6CF;
+
+    padding: 10px;
+    margin: 30px;
+
+}
+
+
+/* Hero Section*/
+
+#hero img {
+    width: 300px;
+
+
+}
+
+/* Bio Section*/
+
+#bio {
+    text-align: center;
+
+}
+
+/* Hobbies Section*/
+
+
+/* Gallery Section*/
+
+#gallery {
+    border: 2px solid#61a5ed;
+
+}
+
+#gallery img {
+
+    max-width: 100%;
+}
+
+#gallery figure {
+    text-align: "center";
+}
+
+/*Literature */
+
+
+#lit {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+   
+}
+
+#lit h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.responsive-flex {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.fix-text {
+    flex: 1 1 45%;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    text-align: justify;
+    color: #333;
+}
+
+.indent {
+    font-weight: bold;
+    font-size: 1.5rem;
+    float: left;
+    margin-right: 6px;
+    color: #444;
+}
+
+@media (max-width: 768px) {
+    .responsive-flex {
+        flex-direction: column;
+    }
+
+    .fix-text {
+        flex: 1 1 100%;
+        font-size: 1rem;
+    }
+
+    #lit h2 {
+        font-size: 1.6rem;
+    }
+
+    .indent {
+        font-size: 1.3rem;
+    }
+}
+
+/*Dropcaps*/
+
+
+.fix-text {
+    text-align: left;
+}
+
+.indent {
+    font-size: 40px;
+}
+
+.hobbies-text-one {
+    font-size: 20px;
+    color: blue;
+}
+
+.responsive-gallery-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.responsive-gallery-row figure {
+    text-align: center;
+    margin: 0;
+    flex: 0 0 auto;
+}
+
+.responsive-gallery-row img {
+    width: 400px;    
+    height: 300px;  
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+}
+
+.responsive-gallery-row figcaption {
+    margin-top: 0.5rem;
+    font-style: italic;
+    color: #555;
+}
+
+@media (max-width: 960px) {
+    .responsive-gallery-row {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/*Contact Form*/
+
+#formElements {
+  display: grid;
+  text-align: left;
+
+}
+
+
+
